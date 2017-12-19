@@ -1,0 +1,52 @@
+{
+  "name": "webgl",
+  "version": "1.0.0",
+  "description": "Electron WebGL in a snap package.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "snap": "electron-builder"
+  },
+  "build": {
+    "appId": "webgl",
+    "linux": {
+      "icon": "icon",
+      "synopsis": "Electron WebGL in a snap package.",
+      "description": "GPU support should work for both `npm start` and as a snap, but it doesn't work in a snap.",
+      "category": "test",
+      "target": [
+        "snap"
+      ]
+    },
+    "snap": {
+      "confinement": "strict",
+      "summary": "Electron WebGL in a snap package.",
+      "grade": "devel",
+      "stagePackages": [
+        "default"
+      ],
+      "plugs": [
+        "home",
+        "x11",
+        "unity7",
+        "browser-support",
+        "network",
+        "gsettings",
+        "pulseaudio",
+        "opengl"
+      ]
+    }
+  },
+  "keywords": [
+    "electron",
+    "webgl",
+    "snap"
+  ],
+  "author": "Andrew Miller <dmiller309@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.7.10",
+    "electron-builder": "^19.49.0"
+  }
+}
