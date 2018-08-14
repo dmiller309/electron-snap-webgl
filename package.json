@@ -1,6 +1,6 @@
 {
-  "name": "webgl",
-  "version": "1.0.0",
+  "name": "electron-webgl",
+  "version": "5.1.0",
   "description": "Electron WebGL in a snap package.",
   "main": "main.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "snap": "electron-builder"
   },
   "build": {
-    "appId": "webgl",
+    "appId": "electron-webgl",
     "linux": {
       "icon": "icon",
       "synopsis": "Electron WebGL in a snap package.",
@@ -46,7 +46,7 @@
   "author": "Andrew Miller <dmiller309@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^1.7.10",
-    "electron-builder": "^19.49.0"
+    "electron": "^2.0.7",
+    "electron-builder": "^20.28.1"
   }
 }
