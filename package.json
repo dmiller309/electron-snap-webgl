@@ -25,16 +25,6 @@
       "grade": "devel",
       "stagePackages": [
         "default"
-      ],
-      "plugs": [
-        "home",
-        "x11",
-        "unity7",
-        "browser-support",
-        "network",
-        "gsettings",
-        "pulseaudio",
-        "opengl"
       ]
     }
   },
