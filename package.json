@@ -38,6 +38,7 @@
       ]
     }
   },
+  "repository": "https://github.com/dmiller309/electron-snap-webgl",
   "keywords": [
     "electron",
     "webgl",
