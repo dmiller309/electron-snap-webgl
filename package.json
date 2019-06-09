@@ -1,6 +1,6 @@
 {
   "name": "electron-webgl",
-  "version": "5.1.0",
+  "version": "5.1.1",
   "description": "Electron WebGL in a snap package.",
   "main": "main.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "linux": {
       "icon": "icon",
       "synopsis": "Electron WebGL in a snap package.",
-      "description": "GPU support should work for both `npm start` and as a snap, but it doesn't work in a snap.",
+      "description": "Electron 4.2.4 is newest version that works in Snap (2019-06-09)",
       "category": "test",
       "target": [
         "snap"
@@ -37,7 +37,7 @@
   "author": "Andrew Miller <dmiller309@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^2.0.7",
-    "electron-builder": "^20.28.1"
+    "electron": "^4.2.4",
+    "electron-builder": "^20.43.0"
   }
 }
