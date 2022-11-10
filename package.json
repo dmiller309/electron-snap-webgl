@@ -37,7 +37,7 @@
   "author": "Andrew Miller <dmiller309@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^4.2.4",
+    "electron": "^18.3.7",
     "electron-builder": "^20.43.0"
   }
 }
